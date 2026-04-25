@@ -12,3 +12,15 @@
 
 // Array of numbers
 // scores: number[] = [100, 95, 98];
+
+
+// Function with Explicit Types
+
+// Function with explicit parameter and return types
+function greet(name: string): string {
+return `Hello, ${name}!`;
+}
+
+// TypeScript will ensure you pass the correct argument type
+greet("Alice"); // OK
+greet(42);     // Error: Argument of type '42' is not assignable to parameter of type 'string'
