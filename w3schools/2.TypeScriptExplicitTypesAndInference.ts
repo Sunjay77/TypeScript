@@ -85,3 +85,14 @@ return a + b;
 }
 
 console.log(add("5", 3)); // Error: Argument of type 'string' is not assignable to parameter of type 'number'
+
+//Common Cases for any
+
+// 1. JSON.parse returns 'any' because the structure isn't known at compile time
+const data = JSON.parse('{ "name": "Alice", "age": 30 }');
+
+// 2. Variables declared without initialization
+let something;  // Type is 'any'
+something = 'hello';
+something = 42;  // No error
+
