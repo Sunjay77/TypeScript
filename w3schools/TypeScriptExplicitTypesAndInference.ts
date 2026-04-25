@@ -24,3 +24,20 @@ return `Hello, ${name}!`;
 // TypeScript will ensure you pass the correct argument type
 greet("Alice"); // OK
 greet(42);     // Error: Argument of type '42' is not assignable to parameter of type 'string'
+
+//Type Inference
+//Basix type inference
+
+// TypeScript infers 'string'
+let username = "alice";
+
+// TypeScript infers 'number'
+let score = 100;
+
+// TypeScript infers 'boolean[]'
+let flags = [true, false, true];
+
+// TypeScript infers return type as 'number'
+function add(a: number, b: number) {
+return a + b;
+}
