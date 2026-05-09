@@ -1,0 +1,30 @@
+/* minimal configuration */
+
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs"
+  },
+  "include": ["src/**/*"]
+}
+
+/* advance configuration */
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["src/app/*"]
+    },
+    "outDir": "dist",
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
+
+/* TO generate a tsconfig.json file run
+
+tsc --init
