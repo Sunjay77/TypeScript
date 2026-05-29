@@ -68,9 +68,9 @@
 
 //explict types 
 
-let character: string;
-let age: number;
-let isLoggedIn: boolean;
+// let character: string;
+// let age: number;
+// let isLoggedIn: boolean;
 
 //age = 'luigi'
 age = 30;
