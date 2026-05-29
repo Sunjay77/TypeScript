@@ -73,7 +73,7 @@
 // let isLoggedIn: boolean;
 
 //age = 'luigi'
-age = 30;
+// age = 30;
 
 // isLoggedIn = 25
 
