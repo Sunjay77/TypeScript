@@ -24,7 +24,7 @@
 //   return diameter * Math.PI;
 // };
 
-// console.log(circ(8)); 
+// console.log(circ(8));
 
 // //Arrays
 
@@ -32,7 +32,6 @@
 
 // names.push('waiwai');
 // // names.push(1) only strings can be added
-
 
 // let numbers = [1, 2, 3];
 // numbers.push(23); // works with numbers when it is number above
@@ -66,7 +65,7 @@
 // }
 // // TS is strict
 
-//explict types 
+//explict types
 
 // let character: string;
 // let age: number;
@@ -79,28 +78,53 @@
 
 //arrays
 
-let ninjas: string[]=[];
-ninjas.push('sunjay');
+// let ninjas: string[]=[];
+// ninjas.push('sunjay');
 
-//union types
-let mixed: (string | number | boolean)[] = [];
-mixed.push('hello');
-mixed.push(20);
+// //union types
+// let mixed: (string | number | boolean)[] = [];
+// mixed.push('hello');
+// mixed.push(20);
+// mixed.push(false);
+// console.log(mixed);
+
+// let uid: string | number;
+// uid = "123"
+// uid = 123;
+
+// //objects
+
+// let ninjaOne: object;
+// ninjaOne = { name: "yoshi", age: 30, belt: "black" };
+// let ninjaTwo: {
+//   name: string,
+//   age: number,
+//   beltColour:string,
+// }
+
+// ninjaTwo={name: "mario", age: 25, beltColour: "blue"}
+
+// dynamic(any) types
+
+// let age: any = 24;
+// age = true;
+// console.log(age);
+
+// age = "twenty-four";
+// console.log(age)
+
+// age = { name: "John"};
+// console.log(age);
+
+let mixed: any[] = [];
+
+mixed.push(5);
+mixed.push("hello");
 mixed.push(false);
 console.log(mixed);
 
-let uid: string | number;
-uid = "123"
-uid = 123;
+let sunjay: { name: any, age: any };
 
-//objects
+sunjay = { name: "Sunjay", age: 25 };
 
-let ninjaOne: object;
-ninjaOne = { name: "yoshi", age: 30, belt: "black" };
-let ninjaTwo: {
-  name: string,
-  age: number,
-  beltColour:string,
-}
-
-ninjaTwo={name: "mario", age: 25, beltColour: "blue"}
+console.log(sunjay);

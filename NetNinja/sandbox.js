@@ -18,3 +18,4 @@ const circ = (diameter) => {
     return diameter * Math.PI;
 };
 console.log(circ(8));
+w
