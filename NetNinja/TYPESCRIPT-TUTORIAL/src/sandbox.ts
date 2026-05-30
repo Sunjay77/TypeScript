@@ -116,15 +116,16 @@
 // age = { name: "John"};
 // console.log(age);
 
-let mixed: any[] = [];
+// let mixed: any[] = [];
 
-mixed.push(5);
-mixed.push("hello");
-mixed.push(false);
-console.log(mixed);
+// mixed.push(5);
+// mixed.push("hello");
+// mixed.push(false);
+// console.log(mixed);
 
-let sunjay: { name: any, age: any };
+// let sunjay: { name: any, age: any };
 
-sunjay = { name: "Sunjay", age: 25 };
+// sunjay = { name: "Sunjay", age: 25 };
 
-console.log(sunjay);
+// console.log(sunjay);
+

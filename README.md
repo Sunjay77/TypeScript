@@ -1,1 +1,8 @@
 # TypeScript
+TypeScript 101
+
+- Alternative to javaScript
+- Allows us to use strict TypeScript
+- Supports morden features (arrow functions, let, const)
+- Extra features (generics,interfaces,tuples etc)
+x
